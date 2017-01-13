@@ -1,3 +1,13 @@
+<!--
+
+Trista Huang
+A00902090
+Set O
+COMP 4711 LAB 1
+Jan 13, 2017
+
+-->
+
 <!DOCTYPE html>
 <html>
 	<head>
@@ -10,6 +20,7 @@
 
 			$students = array();
 
+			// Insert Student records
 			$first = new Student();
 			$first->surname = "Doe";
 			$first->first_name = "John";
@@ -31,6 +42,7 @@
 			$second->add_grade(50);
 			$students['a456'] = $second;
 
+			// Insert my own record
 			$third = new Student();
 			$third->surname = "Huang";
 			$third->first_name = "Trista";
@@ -42,6 +54,7 @@
 
 			ksort($students); // one of the many sort functions
 
+			// Output all records
 			foreach($students as $student)
 			    echo $student->toString();
 		?>

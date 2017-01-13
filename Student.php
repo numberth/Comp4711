@@ -1,3 +1,13 @@
+<!--
+
+Trista Huang
+A00902090
+Set O
+COMP 4711 LAB 1
+Jan 13, 2017
+
+-->
+
 <?php
 
 class Student {
